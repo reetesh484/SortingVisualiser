@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head -->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	
+	<!-- title -->
+	<title>Sorting Visualizer</title>
+
+	<!-- linking style.css -->
+	<link href="style_sort.css" rel="stylesheet" />
+</head>
+
+<!-- body -->
+<body >
+<section><div class="circle"></div>
+	<header>
+		<a href="#"><img src="logo.png" alt="logo" class="logo"></a>
+		<ul class="navigation">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="bubblesort.html">BubbleSort</a></li>
+			<li><a href="insertionsort.html">InsertionSort</a></li>
+			<li><a href="selectionsort.html">SelectionSort</a></li>
+			<li><a href="mergesort.html">MergeSort</a></li>
+		</ul>
+	</header>
+	<img src="selection1.svg" alt="" height=500 width=600 class="vector">
+
+<section class="head">Selection Sort Visualizer</section>
+
+<section class="contentContainer"><section class="data-container"></section></section>
+	
+<!-- "Generate New Array" button -->
+<button class="btn btn1" onclick="generate()" id="Button1" >
+	Generate New Array</button>
+	
+<!-- "Selection Sort" button -->
+<button class="btn btn2"
+		onclick="SelectionSort(),disable()" id="Button2" >
+	Selection Sort</button>
+
+	<!-- stop -->
+	<button class="btn btn3" onclick="reset()" id="Button1" >
+		Reset</button>
+	</section>
+</body>
+
+<!-- linking index.js -->
+<script src="script_ss.js"></script>
+</html>
